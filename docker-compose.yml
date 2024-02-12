@@ -24,7 +24,7 @@ services:
       - path_clip_vision=/content/data/models/clip_vision/
       - path_fooocus_expansion=/content/data/models/prompt_expansion/fooocus_expansion/
       - path_outputs=/content/app/outputs/   # Warning: If this directory is not located under '/content/app', you can't see history log!
-      - default_model=juggernautXL_version6Rundiffusion.safetensors
+      - default_model=juggernautXL_version8Rundiffusion.safetensors
       - default_performance=Speed
     volumes:
       - fooocus-data:/content/data
